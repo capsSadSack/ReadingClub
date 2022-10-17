@@ -1,2 +1,2 @@
 # ReadingClub
-Repository for ReadingClub files:
+Repository for ReadingClub code samples
