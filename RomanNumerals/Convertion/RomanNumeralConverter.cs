@@ -45,7 +45,7 @@ namespace Convertion
             }
             else
             {
-                throw new ArgumentException("Roman number format is wrong");
+                return maxNumber - ToArabic(romanNumber.Substring(0, maxNumberIndex)) + ToArabic(romanNumber.Substring(maxNumberIndex + 1));
             }
         }
 

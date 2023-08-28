@@ -28,6 +28,7 @@ namespace Convertion.Tests
         [TestCase("IX", 9)]
         [TestCase("XVIII", 18)]
         [TestCase("XIX", 19)]
+        [TestCase("MCMXCIV", 1994)]
         public void ComplexRomanNumber_Convert_CorrectArabicNumber(
             string romanNumber, int expectedArabicNumber)
         {
